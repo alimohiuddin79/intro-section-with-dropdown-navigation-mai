@@ -1,0 +1,118 @@
+/* - Almost White: hsl(0, 0%, 98%)
+- Medium Gray: hsl(0, 0%, 41%)
+- Almost Black: hsl(0, 0%, 8%) */
+body{
+    font-family: 'Epilogue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 41%);
+}
+
+.body-container{
+    padding: 5% 8%;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Navbar */
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0 30px;
+}
+
+.nav-item{
+    margin: 0 20px;
+    color: hsl(0, 0%, 41%);
+    font-weight: 500;
+}
+
+.nav-btn{
+    color: hsl(0, 0%, 41%);
+    margin: 0 20px 0 10px;
+    font-weight: 500;
+}
+
+.dropdown-menu{
+    padding: 20px 10px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px black;
+    border: none;
+}
+
+.dropdown-icons{
+    padding: 0 10px;
+}
+
+.register-btn{
+    border: 1px solid hsl(0, 0%, 41%);
+    border-radius: 10px;
+}
+
+.register-btn:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* Home page Section */
+
+.col-left{
+    padding: 5.2rem 4rem 0 0;
+}
+
+.col-right{
+    text-align: right;
+    padding-right: 4rem;
+}
+
+.hero-image{
+    width: 486px;
+}
+
+@media (max-width:1024px){
+    .col-right{
+        text-align: left;
+        padding: 4rem 4rem 0 0;
+    }
+}
+
+@media (max-width:576px){
+    .col-right{
+        text-align: left;
+        padding: 4rem 4rem 0 0;
+    }
+
+    .hero-image{
+        width: 400px;
+    }
+}
+
+.big-heading{
+    color: hsl(0, 0%, 8%);
+    font-weight: 700;
+    font-size: 5rem;
+    margin-bottom: 46px;
+}
+
+.btn-lg{
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 24px;
+    margin: 46px 0;
+}
+
+.btn-lg:hover{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 8%);
+}
+
+.client-image{
+    margin: 60px 30px 0 0;
+}
+
